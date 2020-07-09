@@ -9,7 +9,7 @@ The datasets for this project was obtained from Kaggle for m5-forecasting compet
 Since the datasets are very large and have datatypes that allocates large memory, we have to choose datatypes for the columns that assigns as small as memory to the RAM. Therefore, we have to change the data types before we start analyzing the datasets. After, I transposed the dataset columns of daily sales to rows so we are able to use those columns as an ID to merge with other dataset. I merged the dataset with the calender dataset using the column id "D" and the product's prices data set with item_id, dept_id and wm_yr_wk (week of month, year and week). Then, the datasets for individual states was saved as .pickle because it allows us to load/save large datasets faster than csv files.
 
 the code to transdorm the dataset:
-
+``` python 
 def transform_df(): 
    calender_dtype={"event_name_1": "category", "event_name_2": "category", "event_type_1": "category", 
       "event_type_2": "category", "weekday": "category", 'wm_yr_wk': 'int16', "wday": "int16",
@@ -43,7 +43,7 @@ def transform_df():
    gc.collect() #free memory 
 
  return dataset
- 
+``` 
  
 ### III. Walmart Analysis
 
