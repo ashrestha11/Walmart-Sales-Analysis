@@ -1,5 +1,6 @@
 # Walmart-Sales-Analysis
-
+**Link for interactive notebook:**
+[Click Here] (https://nbviewer.jupyter.org/github/ashrestha11/Walmart-Sales-Analysis/blob/master/Data%20Analysis%20-%20WMT%20daily%20Sales%202011-2016.ipynb#)
 ### I. Introduction
 
 The datasets for this project was obtained from Kaggle for m5-forecasting competition. There are three different dataset that constains information about Walmart's calender, products sales and its prices from year 2011 to 2016. This repository contains notebook for data wrangling, analysis and creating prediction model by using lgboost.
@@ -50,6 +51,7 @@ def transform_df():
 To fully understand sales of Walmart's product, I analyzed the items in the inventories in different store. Since the frequency of sales is daily, I was able to adjust the frequency to weekly and monthly to learn more about the seasonality and trend of the sales. I used random items from different department to understand the behavior of the conusmers and when the items are sold mostly. The distributions of the prices are similar in many stores and the prices of products did not change by large amount overtime. Many of the items for all the stores in different states are not sold daily, but the stores sales are still high due to the variety of unique products available in the stores. My goal was to create the data visualization as interactive as possible, so I used Plotly to create the plots.
 
 Since github does not fully support Plotly, you can use this link to fully the data analysis:
+[Click Here] (https://nbviewer.jupyter.org/github/ashrestha11/Walmart-Sales-Analysis/blob/master/Data%20Analysis%20-%20WMT%20daily%20Sales%202011-2016.ipynb#)
 
 ### IV. Future Work
 
