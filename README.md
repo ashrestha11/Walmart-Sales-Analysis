@@ -3,7 +3,7 @@
 [Click Here](https://nbviewer.jupyter.org/github/ashrestha11/Walmart-Sales-Analysis/blob/master/Data%20Analysis%20-%20WMT%20daily%20Sales%202011-2016.ipynb#)
 ### I. Introduction
 
-The datasets for this project was obtained from Kaggle for m5-forecasting competition. There are three different dataset that constains information about Walmart's calender, products sales and its prices from year 2011 to 2016. This repository contains notebook for data wrangling, analysis and creating prediction model by using lgboost.
+The datasets for this project was part of m5-forecasting competition. There are three different dataset that constains information about Walmart's calender, products sales and its prices from year 2011 to 2016. This repository contains notebook for data wrangling, analysis and creating prediction model by using lgboost.
 
 ### II. Data Transformation/ Wranging
 
